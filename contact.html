@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+            <nav style="background-color:rgb(210,106,15);padding:15px;">
+        <a href="index.html" style="color:white;">Home</a>
+        <a href="contact.html" style="color:white;">Contact</a>
+    <hr>
+    </nav>
+    <style>
+        body{
+            background-color:lightblue;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        
+        h1{
+            color:darkblue;
+            text-align:center;
+        }
+
+        form{
+            background-color:white;
+            width:45%;
+            margin:30px auto;
+            padding:20px;
+            border-radius: 10px;
+            box-shadow:0 4px 10px grey;
+        }
+
+        input, textarea {
+            width:100%;
+            padding:10px;
+            margin:8px 0px;
+            border-radius: 1px solid grey;
+            box-sizing: border-box;
+        }
+        .button{
+            background-color:blue;
+            color:white;
+            padding:12px;
+            width:100%;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        .button:hover{
+            background-color:darkblue;
+        }
+    </style>
+    <h1>HTML Form</h1>
+    <form>
+        First Name: <input type="text"name="first Name"placeholder="first Name">
+        <br><br>
+        Last Name: <input type="text"name="last Name"placeholder="last Name">
+        <br><br>
+        Gender
+        <br>
+        <input type="radio"name="Male">Male 
+        <input type ="radio"name="Female">Female
+        <br>
+        <br>
+        Password: <input type="password"name="Password"placeholder="password">
+        <br>
+        <br>
+
+        Description: 
+        <textarea rows="5" cols="50"name="description">
+            Enter your description here  
+        </textarea>
+        <br>
+        <input type ="button" class="button"value="submit">
+
+    </form>
+</body>
+</html>
